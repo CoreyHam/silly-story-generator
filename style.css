@@ -1,0 +1,42 @@
+html{
+    background-image: linear-gradient(to left top, #254441, #295650, #2d685f, #327c6d, #388f7a, #3e9e87, #43ae95, #49bea3, #4ecdb6, #53dcc9, #59ecdd, #5ffbf1);
+    height: 100%;
+
+}
+body {
+    font-family: helvetica, sans-serif;
+
+}
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+h1{
+    color: #0E1B19;
+}
+
+p {
+    background: rgba(14, 27, 25, .6);
+    color: #F5FBEF;
+    border-style: none;
+    border-radius: 1rem;
+    border-color: #F5FBEF;
+    padding: 20px;
+    visibility: hidden;
+    width: 75rem;
+    font-size: 2rem;
+}
+
+#customname{
+    padding: 10px;
+}
+
