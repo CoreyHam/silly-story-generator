@@ -8,48 +8,26 @@
 
     <title>Silly story generator</title>
 
-    <style>
-        body {
-            font-family: helvetica, sans-serif;
-            width: 350px;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        label {
-            font-weight: bold;
-        }
-
-        div {
-            padding-bottom: 20px;
-        }
-
-        input[type="text"] {
-            padding: 5px;
-            width: 150px;
-        }
-
-        p {
-            background: #FFC125;
-            color: #5E2612;
-            padding: 10px;
-            visibility: hidden;
-        }
-    </style>
 </head>
 
 <body>
-    <div>
-        <label for="customname">Enter Custom Name: </label>
-        <input id="customname" type="text" placeholder="">
-    </div>
-    <div>
-        <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
-        <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
-    </div>
-    <div>
-        <button class="randomize">Generate Random Story</button>
-    </div>
-    <p class="story"></p>
-    <script src="main.js"></script>
+    <center>
+        <div>
+            <label for="customname"><h1>Enter Custom Name<br></h1></label>
+            <input id="customname" type="text" placeholder="">
+        </div>
+        <div>
+            <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+            <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+        </div>
+        <div>
+            <button id="button" class="randomize"><h2>Generate Random Story</h2></button>
+        </div>
+        <p class="story"></p>
+        <script src="main.js"></script>
+    </center>
 </body>
 
 </html>

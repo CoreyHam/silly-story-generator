@@ -12,21 +12,25 @@ function randomValueFromArray(array) {
 
 // Text Strings
 
-let storyText = "It was 94 fahrenheit outside, so :insertX: went for a walk. When they got to :insertY:, they stared in horror for a few moments, then :insertZ:. Bob saw the whole thing, but was not surprised — :insertX: weighs 300 pounds, and it was a hot day.";
+let storyText = "It was 94 fahrenheit outside, so :insertX: went for a walk. When they got to :insertY:, they stared in horror for a few moments, then :insertZ:. Bob saw the whole thing, but was not surprised — this was :insertX:'s fate";
 let insertX = [
-    "Willy the Goblin",
+    "Jacob the Goblin",
     "Big Daddy",
-    "Father Christmas"
+    "Ronald McDonald",
+    "Danny Devito"
 ]
 let insertY = [
-    "the soup kitchen",
+    "McDonalds",
     "Disneyland",
-    "the White House"
+    "the White House",
+    "their house"
+    
 ]
 let insertZ = [
     "spontaneously combusted",
     "melted into a puddle on the sidewalk",
-    "turned into a slug and crawled away"
+    "turned into a slug and crawled away",
+    "acended into the heavens"
 ]
 
 // Event Listener
